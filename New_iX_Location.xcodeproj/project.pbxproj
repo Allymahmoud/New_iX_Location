@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A083CF671F0C4191007AEFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF661F0C4191007AEFBC /* AppDelegate.swift */; };
-		A083CF691F0C4191007AEFBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF681F0C4191007AEFBC /* ViewController.swift */; };
+		A083CF691F0C4191007AEFBC /* AppleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF681F0C4191007AEFBC /* AppleMapViewController.swift */; };
 		A083CF6C1F0C4191007AEFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A083CF6A1F0C4191007AEFBC /* Main.storyboard */; };
 		A083CF6E1F0C4191007AEFBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A083CF6D1F0C4191007AEFBC /* Assets.xcassets */; };
 		A083CF711F0C4191007AEFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A083CF6F1F0C4191007AEFBC /* LaunchScreen.storyboard */; };
+		A083CF791F0C4B49007AEFBC /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF781F0C4B49007AEFBC /* GoogleMapsViewController.swift */; };
+		A083CF7B1F0C4BA2007AEFBC /* AddActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF7A1F0C4BA2007AEFBC /* AddActivityViewController.swift */; };
+		A083CF7D1F0C4BBF007AEFBC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF7C1F0C4BBF007AEFBC /* SettingsViewController.swift */; };
+		A083CF7F1F0C4BD7007AEFBC /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF7E1F0C4BD7007AEFBC /* ActivityTableViewController.swift */; };
+		A083CF811F0C4D2B007AEFBC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083CF801F0C4D2B007AEFBC /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A083CF631F0C4191007AEFBC /* New_iX_Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = New_iX_Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A083CF661F0C4191007AEFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A083CF681F0C4191007AEFBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A083CF681F0C4191007AEFBC /* AppleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapViewController.swift; sourceTree = "<group>"; };
 		A083CF6B1F0C4191007AEFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A083CF6D1F0C4191007AEFBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A083CF701F0C4191007AEFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A083CF721F0C4191007AEFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A083CF781F0C4B49007AEFBC /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		A083CF7A1F0C4BA2007AEFBC /* AddActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivityViewController.swift; sourceTree = "<group>"; };
+		A083CF7C1F0C4BBF007AEFBC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A083CF7E1F0C4BD7007AEFBC /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		A083CF801F0C4D2B007AEFBC /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				A083CF661F0C4191007AEFBC /* AppDelegate.swift */,
-				A083CF681F0C4191007AEFBC /* ViewController.swift */,
+				A083CF681F0C4191007AEFBC /* AppleMapViewController.swift */,
+				A083CF781F0C4B49007AEFBC /* GoogleMapsViewController.swift */,
+				A083CF7A1F0C4BA2007AEFBC /* AddActivityViewController.swift */,
+				A083CF7C1F0C4BBF007AEFBC /* SettingsViewController.swift */,
+				A083CF7E1F0C4BD7007AEFBC /* ActivityTableViewController.swift */,
 				A083CF6A1F0C4191007AEFBC /* Main.storyboard */,
+				A083CF801F0C4D2B007AEFBC /* Activity.swift */,
 				A083CF6D1F0C4191007AEFBC /* Assets.xcassets */,
 				A083CF6F1F0C4191007AEFBC /* LaunchScreen.storyboard */,
 				A083CF721F0C4191007AEFBC /* Info.plist */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A083CF691F0C4191007AEFBC /* ViewController.swift in Sources */,
+				A083CF691F0C4191007AEFBC /* AppleMapViewController.swift in Sources */,
 				A083CF671F0C4191007AEFBC /* AppDelegate.swift in Sources */,
+				A083CF811F0C4D2B007AEFBC /* Activity.swift in Sources */,
+				A083CF7F1F0C4BD7007AEFBC /* ActivityTableViewController.swift in Sources */,
+				A083CF791F0C4B49007AEFBC /* GoogleMapsViewController.swift in Sources */,
+				A083CF7D1F0C4BBF007AEFBC /* SettingsViewController.swift in Sources */,
+				A083CF7B1F0C4BA2007AEFBC /* AddActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
